@@ -2,35 +2,45 @@
 
 This project is part of the [freeCodeCamp Data Analysis with Python](https://www.freecodecamp.org/learn/data-analysis-with-python/) curriculum. It uses historical sea level data to visualize trends and make predictions of future sea level rise through 2050.
 
+---
+
 ## 📂 Project Structure
 
-. ├── sea_level_predictor.py # Script containing the plotting logic ├── main.py # Development entrypoint to test your function ├── test_module.py # Unit tests for validation ├── epa-sea-level.csv # Sea level dataset from 1880 to 2014 └── sea_level_plot.png # Output image of your final visualization
+```text
+sea_level_predictor.py   # Script containing the plotting logic  
+main.py                  # Development entrypoint to test your function  
+test_module.py           # Unit tests for validation  
+epa-sea-level.csv        # Sea level dataset from 1880 to 2014  
+sea_level_plot.png       # Output image of your final visualization  
+📊 Features
+Loads sea level data from 1880–2014.
 
-## 📊 Features
+Creates a scatter plot of historical sea level rise.
 
-- Loads sea level data from 1880–2014.
-- Creates a **scatter plot** of historical sea level rise.
-- Fits and plots a **regression line** using all data (1880–2014) to predict rise through 2050.
-- Fits and plots a **second regression line** using data from **2000 onward** to compare recent trends.
-- Labels axes and sets an appropriate title.
+Fits and plots a regression line using all data (1880–2014) to predict rise through 2050.
 
-## 🧪 Technologies Used
+Fits and plots a second regression line using data from 2000 onward to compare recent trends.
 
-- **Python 3**
-- [Pandas](https://pandas.pydata.org/)
-- [Matplotlib](https://matplotlib.org/)
-- [SciPy](https://scipy.org/)
+Labels axes and sets an appropriate title.
 
-## 🚀 How to Run the Project
+🧪 Technologies Used
+Python 3
 
-1. Make sure you have the required dependencies installed:
+Pandas
 
-```bash
-pip install pandas matplotlib scipy```
+Matplotlib
+
+SciPy
+
+🚀 How to Run the Project
+Make sure you have the required dependencies installed:
+
+bash
+pip install pandas matplotlib scipy
 Run the project locally:
 
-```bash
-python main.py```
+bash
+python main.py
 The script will:
 
 Generate a plot image and save it as sea_level_plot.png
