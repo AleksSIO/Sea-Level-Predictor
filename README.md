@@ -6,10 +6,6 @@ This project is part of the [freeCodeCamp Data Analysis with Python](https://www
 
 . ├── sea_level_predictor.py # Script containing the plotting logic ├── main.py # Development entrypoint to test your function ├── test_module.py # Unit tests for validation ├── epa-sea-level.csv # Sea level dataset from 1880 to 2014 └── sea_level_plot.png # Output image of your final visualization
 
-markdown
-Copier
-Modifier
-
 ## 📊 Features
 
 - Loads sea level data from 1880–2014.
@@ -30,13 +26,11 @@ Modifier
 1. Make sure you have the required dependencies installed:
 
 ```bash
-pip install pandas matplotlib scipy
+pip install pandas matplotlib scipy```
 Run the project locally:
 
-bash
-Copier
-Modifier
-python main.py
+```bash
+python main.py```
 The script will:
 
 Generate a plot image and save it as sea_level_plot.png
